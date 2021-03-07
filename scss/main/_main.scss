@@ -9,6 +9,10 @@
     background: $primary;
     color: #fff;
     padding: 19px 17px 17px 34px;
+    transition: background 0.5s ease;
+    &:hover {
+      background: rgba($primary, 0.5);
+    }
   }
 }
 

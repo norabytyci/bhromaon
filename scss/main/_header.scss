@@ -84,6 +84,7 @@
       i {
         color: #fff;
         font-size: 14px;
+        animation: moveArrow 0.8s infinite alternate;
       }
     }
   }
@@ -106,6 +107,11 @@
             font-size: 14px;
             line-height: 26px;
             color: #fff;
+            transition: letter-spacing 0.5s ease;
+            display: inline-block;
+            &:hover {
+              letter-spacing: 2px;
+            }
           }
         }
       }

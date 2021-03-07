@@ -22,8 +22,14 @@
       display: inline-block;
       margin-right: 24px;
       font-size: 16px;
+      &:hover {
+        i {
+          color: $primary;
+        }
+      }
       i {
         color: #fff;
+        transition: color 0.5s ease;
       }
       &:last-child {
         margin-right: 0px;
