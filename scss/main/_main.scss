@@ -1,0 +1,18 @@
+.btn {
+  border: 0;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  background: transparent;
+
+  &--primary {
+    background: $primary;
+    color: #fff;
+    padding: 19px 17px 17px 34px;
+  }
+}
+
+input {
+  outline: none;
+  border: none;
+}
